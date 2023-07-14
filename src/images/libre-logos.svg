@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -13,7 +13,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlnsSvg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview48243"
      pagecolor="#ffffff"
@@ -131,4 +131,4 @@
          d="m 95.261839,114.10879 -0.2289,0.85391 h 0.556411 l 0.229022,-0.85391 z m 1.440334,0 -0.2289,0.85391 h 0.587138 l 0.2289,-0.85391 z" />
     </g>
   </g>
-</svg>
+</svg> -->

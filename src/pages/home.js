@@ -5,12 +5,12 @@ import Logo from "../components/logo";
 import SearchBox from "../components/searchbox";
 import BoxMenuDrop from "../components/boxmenudrop";
 import ProfileMenuDrop from "../components/profilemenudrop";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Content } from "../data/content";
 import { Link } from "react-router-dom";
 
 function Home() {
-  const history = useHistory();
+  const history = useNavigate();
 
   // These values will be shown in the search dropdown
   // The name property is the actual text and the value property is the link

@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
   Link,
   Redirect
 } from "react-router-dom";
@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Switch>
+        <Routes>
           <Route exact path="/" component={Home} />
           <Route path="/all" component={AllResults} />
           <Route path="/about" component={about} />
@@ -34,7 +34,7 @@ class App extends Component {
           <Route path="/images" component={ImagesPage} />
           <Route path="/blog" component={BlogPage} />
           <Route component={NotFound} />
-        </Switch>
+        </Routes>
       </Router>
     );
   }
