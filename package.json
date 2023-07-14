@@ -29,7 +29,7 @@
     "gh-pages": "^5.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test --env=jsdom",
